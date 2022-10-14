@@ -1,6 +1,10 @@
 
-public class ShorterCharSubsequence {
+import java.util.*;
+import java.util.stream.Collectors;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
+public class Solution {
     public static void main(String[] args){
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         List<String> argumentsList = new ArrayList<>();
