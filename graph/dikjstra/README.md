@@ -45,6 +45,12 @@ we use a father map with n elements
 
 
 # Using a vector
+
 ## Time Complexity
 the time complexity is O((|A| + |V|^2)) = O(|V|^2)
 ## space complexity
+the space complecity is O(n)
+becuase we use a not visited map with n element
+we use a distnace map with n elements
+we use a heap with n elements
+we use a father map with n elements
