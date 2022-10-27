@@ -14,8 +14,8 @@ then the output will be [1, 6]. So this indicates, to make one jumbo burger and 
 
 this is a linear ecuation:
 
-tomato =  4 total_jumbo + 2 total_small
-cheese =  1 total_jumbo + 1 total_small
+tomato =  4 total_jumbo + 2 total_small <br>
+cheese =  1 total_jumbo + 1 total_small <br>
 
         b₁ = 4X₁ + Y₁
         b₂ = 2X₂ + Y₂
@@ -25,31 +25,31 @@ cheese =  1 total_jumbo + 1 total_small
 
 
         b = A * x
-  b * A-¹ = x
+b * A-¹ = x
 
 where 
 * X Y is the solution to calculate
 * b is given by the problem definition 
 * A is a matrix 
 
-A = [4  1]   
-    [2  1]
-A-¹ = 1 / det(A) * (Atraspuest) 
+            A = [4  1]
+                [2  1]
+            A-¹ = 1 / det(A) * (Atraspuest) 
 
-(if the det is 0 then is not inversible)
+            (if the det is 0 then is not inversible)
 
-- det(A) = 4*1 -2*1 = 4-2 = 2
-- A traspuesta = [1 -1]
-                 [-2 4]
+            - det(A) = 4*1 -2*1 = 4-2 = 2
+            - A traspuesta = [1 -1]
+                             [-2 4]
 
-A-¹ = 1 / det(A) * (Atraspuest) 
-A-¹ = 1 / 2 * [1 -1]
-              [-2 4]
-A-¹ = [1/2 -1/2]
-      [-1    2 ]           
+            A-¹ = 1 / det(A) * (Atraspuest) 
+            A-¹ = 1 / 2 * [1 -1]
+                          [-2 4]
+            A-¹ = [1/2 -1/2]
+                  [-1    2 ]           
 
- b₁/2 -  b₂ = X₁
--b₁/2 + 2b₂ = Y₂
+            b₁/2 -  b₂ = X₁
+            -b₁/2 + 2b₂ = Y₂
 
 # input
 tomato = 16 and chesse = 7
